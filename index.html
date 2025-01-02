@@ -3,41 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>UserCard</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <article class="usercard">
-      <p>Lorem, ipsum dolor.</p>
-
-      <img src="./images/margo.jpg" alt="User photo" class="main-image" />
-      <h1>Margot Robbie</h1>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium,
-        molestias beatae?
-      </p>
-      <button class="blue-button">Follow</button>
-      <article class="footer">
-        <i class="fa-solid fa-image custom-icon"></i>
-        <div>
-          <div class="set-color-text">Posts</div>
-          <div><span>635</span></div>
+      <header>
+        <div class="header-contener">
+          <i class="fa-solid fa-paper-plane city"></i>
+          <p class="city">New York City, NY</p>
         </div>
-        <i class="fa-regular fa-heart custom-icon"></i>
+      </header>
+      <main class="info">
+        <img
+          src="./images/userphoto1.jpg"
+          alt="Margot Robbie"
+          class="image-of-the-user"
+        />
+        <h1>Margot Robbie</h1>
+        <p class="description">Margot Robie was born in Dalby,Queensland,</p>
+        <p>Australia and raised on the Gold Coast.</p>
         <div>
-          <div class="set-color-text">Favorities</div>
-          <div><span>3,472</span></div>
+          <button class="blu-btn">Follow</button>
         </div>
-        <i class="fa-regular fa-paper-plane custom-icon"></i>
-        <div>
-          <div class="set-color-text">Messages</div>
-          <div><span>1,293</span></div>
+      </main>
+      <footer class="social-media">
+        <div class="section-posts">
+          <i class="fa-regular fa-image icons"></i>
+          <div class="text-number-cont">
+            <div class="text-footer">Posts</div>
+            <div class="figures-footer">635</div>
+          </div>
         </div>
-      </article>
+        <div class="section-fav">
+          <i class="fa-regular fa-heart icons"></i>
+          <div class="text-number-cont">
+            <div class="text-footer">Favourities</div>
+            <div class="figures-footer">3,472</div>
+          </div>
+        </div>
+        <div class="section-mess">
+          <i class="fa-regular fa-paper-plane icons"></i>
+          <div class="text-number-cont">
+            <div class="text-footer">Messages</div>
+            <div class="figures-footer">1,293</div>
+          </div>
+        </div>
+      </footer>
     </article>
   </body>
 </html>
